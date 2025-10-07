@@ -73,10 +73,6 @@ html, body {
     .section-1 h3 {
         font-size: 1.5rem;
     }
-    .section-8 .contact{
-      display: flex;
-      flex-direction: row;
-    }
 }
 
 @media (max-width: 480px) {
