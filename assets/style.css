@@ -142,10 +142,15 @@
 }
 .section-5__image{
   min-height: 420px;          
-  background-image:url(img/kiem_dinh.jpg);
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
+}
+.nho_sua_1{
+  background-image:url(img/nho_sua_1.jpg);
+}
+.nho_ha_den_1{
+  background-image:url(img/nho_ha_den_1.jpg);
 }
 .section-5__overlay{
   position:absolute; inset:0;
@@ -334,8 +339,6 @@ img {
 
 .modal-backdrop.show{ opacity: .35; }
 .modal-backdrop{ backdrop-filter: blur(2px); }
-
-/* Tiêu đề */
 #registerModalLabel{
   letter-spacing: -.2px;
 }
