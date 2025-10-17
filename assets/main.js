@@ -6,6 +6,6 @@
         setInterval(() => {
             index = (index + 1) % images.length;
             backGround.style.backgroundImage = `url(assets/img/${images[index]})`;
-        },3000);
+        },7000);
     }
 )()
