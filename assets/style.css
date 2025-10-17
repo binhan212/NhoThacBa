@@ -195,7 +195,7 @@ html, body {
   background-repeat:no-repeat;
 }
 .nho_sua_1{
-  background-image:url(img/nho_sua_1.jpg);
+  background-image:url(img/avatar2.jpg);
 }
 .nho_ha_den_1{
   background-image:url(img/nho_ha_den_1.jpg);
@@ -242,21 +242,6 @@ html, body {
 .section-5__image {
   position: relative;
   overflow: hidden;
-}
-
-.section-5__image::after {
-  content: "Khám phá ngay!";
-  position: absolute;
-  inset: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-weight: 600;
-  font-size: 1.2rem;
-  background: rgba(0, 0, 0, 0.4);
-  opacity: 0;
-  transition: opacity 0.4s ease;
 }
 
 .section-5__image:hover::after {
