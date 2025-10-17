@@ -7,5 +7,5 @@
     setInterval(() => {
         index = (index + 1) % images.length; 
         img.src = imagePath + images[index];    
-    }, 3000);
+    }, 7000);
 })();
